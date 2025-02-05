@@ -30,6 +30,28 @@ const registerUser = async (req, res) => {
 };
 
 // Fonction de login de l'utilisateur
+// const loginUser = async (req, res) => {
+//     const { email, password } = req.body;
+//     try {
+//         const user = await User.findOne({ email });
+//         if (!user) return res.status(400).send('Utilisateur non trouvé');
+        
+//         // Vérification du mot de passe
+//         const isMatch = await bcrypt.compare(password, user.password);
+//         if (!isMatch) return res.status(400).send('Mot de passe incorrect');
+        
+//         // Création du token JWT
+//         // const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET, { expiresIn: '1h' });
+//         // console.log(token);
+//         res.json({ user });
+//     } catch (err) {
+//         res.status(500).send('Erreur serveur');
+//     }
+// };
+
+
+
+// Fonction de login de l'utilisateur
 const loginUser = async (req, res) => {
     const { email, password } = req.body;
     try {
@@ -40,9 +62,7 @@ const loginUser = async (req, res) => {
         const isMatch = await bcrypt.compare(password, user.password);
         if (!isMatch) return res.status(400).send('Mot de passe incorrect');
         
-        // Création du token JWT
-        // const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET, { expiresIn: '1h' });
-        // console.log(token);
+        // Si la connexion réussie, renvoyer les informations de l'utilisateur (sans token)
         res.json({ user });
     } catch (err) {
         res.status(500).send('Erreur serveur');
@@ -50,3 +70,4 @@ const loginUser = async (req, res) => {
 };
 
 module.exports = { registerUser, loginUser };
+
