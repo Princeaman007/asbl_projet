@@ -1,7 +1,139 @@
-.input-group-text i {
-    font-size: 1.2rem; /* Ajuste la taille de l'icône */
+/* Style général */
+body {
+    background-color: #f8f9fa;
 }
 
-.input-group .form-control {
-    padding-right: 40px; /* Donne de l'espace pour l'icône */
+/* Navbar */
+.seConnecter a {
+    background-color:#0076C8;
+    color:#fff;
+   
+}
+.seConnecter a:hover, .inscrire a:hover {
+    background-color: pink
+}
+
+.inscrire a{
+    background-color: #97C0FF;
+}
+
+/* Carrousel */
+.hero {
+    position: relative;
+    background: url('https://via.placeholder.com/1500x700') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: left;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 50%;
+}
+
+/* Barre de recherche */
+.search-bar {
+    margin-top: -30px;
+    z-index: 10;
+    position: relative;
+}
+
+/* Services */
+.service-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+ /* Section "Qui sommes-nous" */
+ .who-we-are {
+    padding: 50px 0;
+}
+
+.who-we-are img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Section "Nos événements" */
+.events {
+    background-color: #dbe7f3;
+    padding: 50px 0;
+}
+.events h3 {
+    color: #6B2994;
+    font-weight: bold;
+}
+.event-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.agenda-button {
+    background-color: #9C2AA0;
+    color: white;
+}
+
+/* Section "Nous soutenir" */
+.support {
+    padding: 50px 0;
+}
+.support-box {
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.h3-who-are-we{
+    text-align: center;
+    color: #6B2994;
+    font-weight: bold;
+}
+
+
+/* formulaire */
+
+.container {
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+.form-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.btn-custom {
+    background-color: #4776E6;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    transition: 0.3s;
+}
+.btn-custom:hover {
+    background-color: #365ac5;
+}
+.form-check-label {
+    font-size: 14px;
 }
