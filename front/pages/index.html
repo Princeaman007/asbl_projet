@@ -1,67 +1,72 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/asbl_projet/front/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="js/db.js"></script> <!-- Inclure le fichier db.js -->
     
-    
-    <title>A propos de nous</title>
+    <title>Je suis interprète</title>
 </head>
+<body>
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
     <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="/asbl_projet/front/assets/img/Calque_1.png" alt="Logo" height="40">
+        <a class="navbar-brand" href="index.html">
+            <img src="/asbl_projet/front/assets/img/logo.png" alt="Logo" height="40">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Les prestations</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Les cours</a></li>           
-                <li class="nav-item"><a class="nav-link" href="#">A propos</a></li>
-                <li class="seConnecter"><a class="nav-link" href="login.html">Contact</a></li>
-                <li class="inscrire"><a class="nav-link" href="register.html">Faire un don</a></li>
+                <li class="nav-item"><a class="nav-link" href="jeSuisInterprete.html">Interprétariat</a></li>
+                <li class="nav-item"><a class="nav-link" href="courslangue.html">Apprendre</a></li>           
+                <li class="nav-item"><a class="nav-link" href="apropos.html">A propos</a></li>
+                <li class="faire-don"><a class="nav-link  rounded px-3" href="faireUnDon.html">Faire un don</a></li>
+                <li class="contact"><a class="nav-link bg-primary text-white rounded px-3" href="contact.html">Contact</a></li>
             </ul>
         </div>
     </div>
 </nav>
+</body>
+</html>
 
 <!-- Carrousel Bootstrap -->
 <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <!-- Slide 1 -->
         <div class="carousel-item active">
-            <div class="hero d-flex align-items-center justify-content-center text-white" style="background: url('/asbl_projet/front/assets/img/carrousel1.jpg') no-repeat center center/cover; height: 70vh;">
+            <div class="hero d-flex align-items-center justify-content-center text-white" style="background: url('/asbl_projet/front/assets/img/BLUE/DEKSTOP/01.jpg') no-repeat center center/cover; height: 70vh;">
                 <div class="hero-overlay p-4">
-                    <h1>Je cherche un interprète</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur. Eget euismod commodo risus tincidunt.</p>
-                    <button class="btn btn-primary"><a href="jeSuisInterprete.html">Trouver un interprète</a></button>
+                    <h1 class="h1">Je cherche un interprète</h1>
+                    <p class="h1">Lorem ipsum dolor sit amet consectetur. Eget euismod commodo risus tincidunt.</p>
+                   <a href="chercheInterprete.html"> <button class="btn btn-primary">Trouver un interprète</button></a>
                 </div>
             </div>
         </div>
         <!-- Slide 2 -->
         <div class="carousel-item">
-            <div class="hero d-flex align-items-center justify-content-center text-white" style="background: url('/asbl_projet/front/assets/img/carrousel2.jpg') no-repeat center center/cover; height: 70vh;">
+            <div class="hero d-flex align-items-center justify-content-center text-white" style="background: url('/asbl_projet/front/assets/img/BLUE/DEKSTOP/02.jpg') no-repeat center center/cover; height: 70vh;">
                 <div class="hero-overlay p-4">
-                    <h1>Je suis un interprète</h1>
-                    <p>Découvrez comment vous pouvez offrir vos services en tant qu'interprète.</p>
-                    <button class="btn btn-primary">En savoir plus</button>
+                    <h1 class="h1">Je suis un interprète</h1>
+                    <p class="h1">Découvrez comment vous pouvez offrir vos services en tant qu'interprète.</p>
+                   <a href="jeSuisInterprete.html"><button class="btn btn-primary">En savoir plus</button></a> 
                 </div>
             </div>
         </div>
         <!-- Slide 3 -->
         <div class="carousel-item">
-            <div class="hero d-flex align-items-center justify-content-center text-white" style="background: url('/asbl_projet/front/assets/img/carrousel3.jpg') no-repeat center center/cover; height: 70vh;">
+            <div class="hero d-flex align-items-center justify-content-center text-white" style="background: url('/asbl_projet/front/assets/img/BLUE/DEKSTOP/03.jpg') no-repeat center center/cover; height: 70vh;">
                 <div class="hero-overlay p-4">
-                    <h1>Apprendre une nouvelle langue</h1>
-                    <p>Découvrez nos formations pour maîtriser une nouvelle langue rapidement.</p>
-                    <button class="btn btn-primary">Commencer</button>
+                    <h1 class="h1">Apprendre une nouvelle langue</h1>
+                    <p class="h1">Découvrez nos formations pour maîtriser une nouvelle langue rapidement.</p>
+                   <a href="courslangue.html"><button class="btn btn-primary">Commencer</button></a>
                 </div>
             </div>
         </div>
@@ -76,230 +81,192 @@
 </div>
 
 
-<!-- Barre de recherche -->
-<div class="container search-bar">
-    <div class="input-group">
-        <input type="text" class="form-control" placeholder="Je cherche un interprète en Kirwanda">
-        <button class="btn btn-primary"><i class="bi bi-search"></i></button>
-    </div>
-</div>
-
-<!-- Services -->
-<div class="container mt-5 text-center">
-    <h3 class="mb-4" style="color: #6B2994;">Nos 3 services</h3>
-    <div class="row">
-        <!-- Carte 1 -->
-        <div class="col-md-4">
-            <div class="service-card">
-                <img src="/asbl_projet/front/assets/img/carrousel1.jpg" class="img-fluid rounded" alt="Service 1">
-                <h5 class="mt-3">Je cherche un interprète</h5>
-                <p>- un interprète<br>- une langue<br>- une famille d'accueil</p>
-                <button class="btn w-100" style="background-color: #9C2AA0; color: white;">Trouver un interprète</button>
-            </div>
-        </div>
-        <!-- Carte 2 -->
-        <div class="col-md-4">
-            <div class="service-card">
-                <img src="/asbl_projet/front/assets/img/carrousel2.jpg" class="img-fluid rounded" alt="Service 2">
-                <h5 class="mt-3">Je suis un interprète</h5>
-                <p>- un interprète<br>- une langue<br>- une famille d'accueil</p>
-                <button class="btn w-100" style="background-color: #9C2AA0; color: white;">CTA</button>
-            </div>
-        </div>
-        <!-- Carte 3 -->
-        <div class="col-md-4">
-            <div class="service-card">
-                <img src="/asbl_projet/front/assets/img/carrousel3.jpg" class="img-fluid rounded" alt="Service 3">
-                <h5 class="mt-3">Je veux apprendre</h5>
-                <p>- un interprète<br>- une langue<br>- une famille d'accueil</p>
-                <button class="btn w-100" style="background-color: #9C2AA0; color: white;">CTA</button>
-            </div>
+<div class="container-fluid">
+    <!-- Barre de recherche -->
+    <div class="container search-bar">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Je cherche un interprète en Kirwanda">
+            <button class="btn btn-primary"><i class="bi bi-search"></i></button>
         </div>
     </div>
-</div>
 
-<!-- Section "Qui sommes-nous ?" -->
-<h3 class="h3-who-are-we">Qui sommes-nous ?</h3>
-<div class="container who-we-are">
-    <div class="row align-items-center">
-        <div class="col-md-6">
-            <img src="/asbl_projet/front/assets/img/carrousel2.jpg" alt="Qui sommes-nous">
+    <!-- Section Nos Services -->
+    
+    <div class="container text-center my-5 services-section">
+        <h2 class="section-title">Nos services</h2>
+        <div class="row justify-content-center">
+            <!-- Carte Service 1 -->
+            <div class="col-12 col-md-4 d-flex align-items-stretch my-3">
+                <div class="service-card shadow w-100">
+                    <div class="image-hover">
+                        <img src="/asbl_projet/front/assets/img/BLUE/DEKSTOP/01.jpg" class="img-fluid rounded" alt="Image Bleue">
+                        <img src="/asbl_projet/front/assets/img/COLOR/DEKSTOP/01.jpg" class="img-fluid rounded color-image" alt="Image Couleur">
+                    </div>
+                        <div class="service-content p-3 d-flex flex-column justify-content-between">
+                        <h5 class="service-title">Je cherche un interprète</h5>
+                        <p>Vous cherchez un interprète pour vous aider dans vos demarches administratives?</p>
+                        <a href="chercheInterprete.html" class="btn btn-primary w-100 mt-auto">Trouver un interprète</a>
+                    </div>
+                </div>
+                
+            </div>
+    
+            <!-- Carte Service 2 -->
+            <div class="col-12 col-md-4 d-flex align-items-stretch my-3">
+                <div class="service-card shadow w-100">
+                    <div class="image-hover">
+                        <img src="/asbl_projet/front/assets/img/BLUE/DEKSTOP/07.jpg" class="img-fluid rounded" alt="Image Bleue">
+                        <img src="/asbl_projet/front/assets/img/COLOR/DEKSTOP/07.jpg" class="img-fluid rounded color-image" alt="Image Couleur">
+                    </div>                    <div class="service-content p-3 d-flex flex-column justify-content-between">
+                        <h5 class="service-title">Je suis un interprète</h5>
+                        <p>Je connais un dialècte et souhaite aider les personnes etc. </p>
+                        <a href="jeSuisInterprete.html" class="btn btn-primary w-100 mt-auto">CTA</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Carte Service 3 -->
+            <div class="col-12 col-md-4 d-flex align-items-stretch my-3">
+                <div class="service-card shadow w-100">
+                    <div class="image-hover">
+                        <img src="/asbl_projet/front/assets/img/BLUE/DEKSTOP/06.jpg" class="img-fluid rounded" alt="Image Bleue">
+                        <img src="/asbl_projet/front/assets/img/COLOR/DEKSTOP/06.jpg" class="img-fluid rounded color-image" alt="Image Couleur">
+                    </div>                    <div class="service-content p-3 d-flex flex-column justify-content-between">
+                        <h5 class="service-title">Je veux apprendre</h5>
+                        <p>Cours immersif, colonies linguistiques, week-ends en famille. Venez apprendre une nouvelle langue</p>
+                        <a href="courslangue.html" class="btn btn-primary w-100 mt-auto">Cours de langues</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6 col-lg-6">
-            <p>
-                Lorem ipsum dolor sit amet consectetur. Nec vestibulum molestie tortor facilisis. 
-                Sed dolor malesuada nullam aliquam augue eu non egestas ultrices. 
-                Aliquam in et elit purus luctus quis. Et vel dignissim faucibus fringilla in.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellat sunt perspiciatis corrupti consequuntur unde, aliquid vitae libero inventore? Commodi deleniti alias nulla qui dolore tenetur natus labore a nobis?
-                Quisquam, quaerat nihil. Qui commodi ipsa corporis architecto numquam, accusantium modi, quia magni ex fugit sit aut velit dolores. Soluta nisi sed vitae nostrum, quos eligendi molestias sint repellendus omnis!
-                Vel, nihil! Possimus placeat, assumenda cum quos modi temporibus officiis consequatur totam alias saepe in fugit velit optio deserunt ducimus quisquam neque aperiam ipsam ea numquam voluptate non iusto nisi!
-                Doloremque facere obcaecati, fugit blanditiis voluptas cum voluptatum quas at itaque asperiores amet ullam cumque voluptate, hic alias laboriosam similique sit aut. Quas exercitationem reprehenderit autem vero hic repellendus totam?
-                Adipisci obcaecati, ipsa eaque similique hic nostrum perferendis saepe error numquam unde aspernatur, temporibus ad itaque! Eos adipisci dolor expedita rerum corporis assumenda tempore, ad nostrum amet labore, delectus numquam!
+    </div>
+
+    <!-- Section Qui sommes-nous -->
+    <section class="container who-we-are">
+        <h2 class="section-title text-center">Qui sommes-nous ?</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+<div class="image-hover">
+                        <img src="/asbl_projet/front/assets/img/BLUE/DEKSTOP/08.jpg" class="img-fluid rounded" alt="Image Bleue">
+                        <img src="/asbl_projet/front/assets/img/COLOR/DEKSTOP/08.jpg" class="img-fluid rounded color-image" alt="Image Couleur">
+                    </div>            </div>
+            <div class="col-md-6">
+                <p class="qui-somme-nous">
+                    "jesuisinterprète" est une plateforme qui met à disposition des interprètes, assistants linguistiques et médiateurs linguistiques pour faciliter la communication entre la population migrante et les professionnels des organismes publics et privés. Son objectif est de prévenir les malentendus lors des échanges grâce à des interprètes qualifiés et expérimentés. En outre, la plateforme offre l'opportunité d'apprendre des langues rares de manière immersive, permettant ainsi de découvrir d'autres cultures dans un cadre chaleureux.
+                </p>
+                <a href="apropos.html" class="btn btn-secondary">Découvrir l'ASBL</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Nos événements -->
+    
+    <div class="container events-section text-center my-5">
+        <h2 class="section-title">Nos événements</h2>
+    
+        <div class="event-list">
+            <!-- Événement 1 -->
+            <div class="event-card">
+                <div class="d-flex justify-content-between align-items-start">
+                    <div>
+                        <h5 class="fw-bold"><i class="bi bi-calendar-event me-2"></i> Café des Langues</h5>
+                        <p class="text-muted small">Rencontres informelles où des interprètes et passionnés de langues échangent autour de thématiques culturelles.</p>
+                    </div>
+                    <span class="event-date">15 mars 2025</span>
+                </div>
+            </div>
+    
+            <!-- Événement 2 -->
+            <div class="event-card">
+                <div class="d-flex justify-content-between align-items-start">
+                    <div>
+                        <h5 class="fw-bold"><i class="bi bi-calendar-event me-2"></i> Médiation Linguistique</h5>
+                        <p class="text-muted small">Formation interactive sur la gestion des malentendus interculturels.</p>
+                    </div>
+                    <span class="event-date">23 mars 2025</span>
+                </div>
+            </div>
+    
+            <!-- Événement 3 -->
+            <div class="event-card">
+                <div class="d-flex justify-content-between align-items-start">
+                    <div>
+                        <h5 class="fw-bold"><i class="bi bi-calendar-event me-2"></i> Langues du monde</h5>
+                        <p class="text-muted small">Conférences et ateliers sur l’apprentissage et la valorisation des langues peu connues.</p>
+                    </div>
+                    <span class="event-date">09 avril 2025</span>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+
+    <!-- Section Nous soutenir -->
+   
+            
+    <section class="container support-section text-center my-5">
+        <h2 class="section-title">Nous soutenir</h2>
+    
+        <!-- Image au-dessus du formulaire -->
+        <div class="support-image-container">
+            <img src="/asbl_projet/front/assets/img/BLUE/DEKSTOP/01.jpg" class="img-fluid rounded" alt="Nous soutenir">
+        </div>
+    
+        <!-- Formulaire de paiement -->
+        <!-- Formulaire de paiement -->
+        <div class="container payment-form">
+            <h5 class="fw-bold text-start">Paiment</h5>
+    
+            <!-- Modes de paiement -->
+            <div class="mb-3 text-start">
+                <label class="fw-bold"></label>
+                <div class="d-flex align-items-center">
+                    <input type="radio" id="card" name="paymentMethod">
+                    <label for="card" class="ms-2">Carte</label>
+    
+                    <input type="radio" id="transfer" name="paymentMethod" class="ms-4" checked>
+                    <label for="transfer" class="ms-2">Transfer</label>
+                </div>
+            </div>
+    
+            <!-- IBAN -->
+            <div class="mb-3">
+                <label class="form-label fw-bold text-start">IBAN</label>
+                <input type="text" class="form-control" value="LT20 3250 0316 0388 1952" readonly>
+            </div>
+    
+            <!-- BIC -->
+            <div class="mb-3">
+                <label class="form-label fw-bold text-start">BIC</label>
+                <input type="text" class="form-control" value="REVOLT21" readonly>
+            </div>
+    
+            <!-- Bouton de paiement -->
+            <button class="btn btn-primary w-100 fw-bold py-2">Contribuer</button>
+    
+            <!-- Texte d'information -->
+            <p class="text-muted text-center mt-3 small">
+                Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.
             </p>
-            <button class="btn agenda-button">Découvrir l'ASBL</button>
         </div>
-    </div>
-</div>
-
-<!-- Section "Nos événements" -->
-<div class="container-fluid events">
-    <div class="container">
-        <h3 class="text-center">Nos événements</h3>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="event-card">
-                    <img src="/asbl_projet/front/assets/img/carrousel3.jpg" class="img-fluid rounded" alt="Événement">
-                    <h5 class="mt-3">Événement 1</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur. Trididunt nec cursus bibendum.</p>
-                    <button class="btn agenda-button w-100">Voir l'agenda</button>
-                </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer text-center text-white py-4">
+        <div class="container">
+            <div class="social-icons mb-3">
+                <a href="facebook.com"><img src="/asbl_projet/front/assets/img/icin/icon-social-facebook.svg" alt="" width="6%"></a>
+                <i class=""></i>
+                <i class=""></i>
             </div>
-            <div class="col-md-6">
-                <div class="list-group">
-                    <div class="list-group-item d-flex justify-content-between">
-                        <div>
-                            <h5 class="mb-0">Événement 1</h5>
-                            <p class="mb-0">And add a detailed description here.</p>
-                        </div>
-                        <span class="text-muted">15 mars 2025</span>
-                    </div>
-                    <div class="list-group-item d-flex justify-content-between">
-                        <div>
-                            <h5 class="mb-0">Événement 2</h5>
-                            <p class="mb-0">And add a detailed description here.</p>
-                        </div>
-                        <span class="text-muted">20 mars 2025</span>
-                    </div>
-                    <div class="list-group-item d-flex justify-content-between">
-                        <div>
-                            <h5 class="mb-0">Événement 3</h5>
-                            <p class="mb-0">And add a detailed description here.</p>
-                        </div>
-                        <span class="text-muted">25 mars 2025</span>
-                    </div>
-                </div>
-            </div>
+            <p>About us | Conditions générales</p>
+            <p>Email : pbelhala@gmail | Téléphone : +32 455-154-614</p>
+            <p>© JesuisInterprete | All Rights Reserved</p>
         </div>
-    </div>
-</div>
-
-<!-- Section "Nous soutenir" -->
-<div class="container support">
-    <h3 class="text-center">Nous soutenir</h3>
-    <div class="support-box">
-        <p>Formulaire de don</p>
-    </div>
-</div>
-
-<!-- Nos partenaires -->
-<div class="container py-5">
-    <h2 class="section-title">Nos partenaires</h2>
-    <div class="row justify-content-center">
-        <!-- Partenaire 1 -->
-        <div class="col-6 col-md-3 text-center" data-aos="fade-up">
-            <div class="partner-logo">
-                <img src="IMG/Calque_1.png" alt="Partenaire 1" class="img-fluid">
-            </div>
-        </div>
-        <!-- Partenaire 2 -->
-        <div class="col-6 col-md-3 text-center" data-aos="fade-up" data-aos-delay="100">
-            <div class="partner-logo">
-                <img src="IMG/Calque_1.png" alt="Partenaire 2" class="img-fluid">
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Formilaire -->
-
-    <div class="container">
-        <h2 class="form-title">Formulaire</h2>
-        <form>
-            <!-- Nom et Prénom -->
-            <div class="row g-3">
-                <div class="col-md-6">
-                    <label for="prenom" class="form-label">Prénom *</label>
-                    <input type="text" class="form-control" id="prenom" placeholder="Votre Prénom" required>
-                </div>
-                <div class="col-md-6">
-                    <label for="nom" class="form-label">Nom *</label>
-                    <input type="text" class="form-control" id="nom" placeholder="Votre Nom" required>
-                </div>
-            </div>
+    </footer>
     
-            <!-- E-mail -->
-            <div class="mt-3">
-                <label for="email" class="form-label">E-mail *</label>
-                <input type="email" class="form-control" id="email" placeholder="*****@gmail.com" required>
-            </div>
-    
-            <!-- Statut -->
-            <div class="mt-3">
-                <label class="form-label">Statut</label>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="interprete">
-                    <label class="form-check-label" for="interprete">Je suis un interprète</label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="mediateur">
-                    <label class="form-check-label" for="mediateur">Je suis un médiateur</label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="apprenant">
-                    <label class="form-check-label" for="apprenant">Je suis un apprenant</label>
-                </div>
-            </div>
-    
-            <!-- Langue -->
-            <div class="mt-3">
-                <label for="langue" class="form-label">Langue</label>
-                <select class="form-select" id="langue">
-                    <option selected> Sélectionner votre langue</option>
-                    <option value="fr">Français</option>
-                    <option value="en">Anglais</option>
-                    <option value="es">Espagnol</option>
-                </select>
-            </div>
-    
-            <!-- Disponibilités -->
-            <div class="mt-3">
-                <label for="disponibilites" class="form-label">Disponibilités</label>
-                <input type="date" class="form-control" id="disponibilites">
-            </div>
-    
-            <!-- Message -->
-            <div class="mt-3">
-                <label for="message" class="form-label">Message *</label>
-                <textarea class="form-control" id="message" rows="3" placeholder="Votre message" required></textarea>
-            </div>
-    
-            <!-- Conditions -->
-            <div class="mt-3 form-check">
-                <input type="checkbox" class="form-check-input" id="terms" required>
-                <label class="form-check-label" for="terms">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Gravida eget ultricies</strong> pharetra scelerisque duis cursus.
-                </label>
-            </div>
-    
-            <!-- Bouton Envoyer -->
-            <div class="mt-4">
-                <button type="submit" class="btn btn-custom">Envoyer</button>
-            </div>
-        </form>
-    </div>
     
 
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <p class="mb-1">&copy; 2025 Je suis interprète. Tous droits réservés.</p>
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="#" class="text-white text-decoration-none">Mentions légales</a></li>
-            <li class="list-inline-item"><a href="#" class="text-white text-decoration-none">Politique de confidentialité</a></li>
-            <li class="list-inline-item"><a href="#" class="text-white text-decoration-none">Contact</a></li>
-        </ul>
-    </div>
-</footer>
 
 <!-- Scripts Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/asbl_projet/front/style.css">
-    <title>Je suis interprète</title>
+    <title>Apprentissage</title>
 </head>
 <body>
 
@@ -20,33 +20,40 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Interprétariat</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
             </ul>
         </div>
     </div>
 </nav>
-
-<div class="img">
-    <img src="/asbl_projet/front/assets/img/BLUE/DEKSTOP/13.jpg" alt="">
-</div>
 <!-- Section Hero -->
 <div class="hero-section">
     <div class="overlay"></div>
     <div class="container text-center text-white">
-        <h1 class="fw-bold">Je suis interprète</h1>
+        <h1 class="fw-bold">Apprentissage</h1>
     </div>
 </div>
 
 <!-- Section Description -->
-<div class="container my-4">
+<div class="container my-4 text-center">
     <p>
-        Chez "Je suis interprète", nous croyons que la langue est bien plus qu'un simple moyen de communication...
+        « Jesuisinterprète » dispense des cours de langues aux personnes désireuses de découvrir d’autres 
+        cultures ou de s’intégrer par la langue.
     </p>
 </div>
 
-<!-- Formulaire d'inscription -->
+
+  <!-- Carte Tandem -->
+  <div class="course-card">
+    <h4 class="fw-bold">Tandem</h4>
+    <p><i class="bi bi-people-fill"></i> En binôme</p>
+    <p><i class="bi bi-calendar"></i> 2x/Semaine ou 3x/Semaine</p>
+    <p><i class="bi bi-cash"></i> 20€/Heure</p>
+    <p><i class="bi bi-clock"></i> 6 semaines renouvelables</p>
+   <a href="tandem.html"> <button class="btn btn-dark w-100">Réserver un tandem</button></a>
+</div>
+
 <div class="container">
     <h2 class="form-title">Formulaire</h2>
     <form id="contactForm">
@@ -68,22 +75,7 @@
             <input type="email" class="form-control" id="email" name="email" placeholder="*****@gmail.com" required>
         </div>
 
-        <!-- Statut -->
-        <div class="mt-3">
-            <label class="form-label">Statut</label>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="interprete" name="statut" value="Interprète">
-                <label class="form-check-label" for="interprete">Je suis un interprète</label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="mediateur" name="statut" value="Médiateur">
-                <label class="form-check-label" for="mediateur">Je suis un médiateur</label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="apprenant" name="statut" value="Apprenant">
-                <label class="form-check-label" for="apprenant">Je suis un apprenant</label>
-            </div>
-        </div>
+       
 
         <!-- Langue -->
         <div class="mt-3">
@@ -96,20 +88,7 @@
             </select>
         </div>
 
-        <!-- Disponibilités -->
-        <div class="mt-3">
-            <label for="dateDebut" class="form-label">Période de disponibilité *</label>
-            <div class="row">
-                <div class="col-md-6">
-                    <label for="dateDebut" class="form-label">Date de début *</label>
-                    <input type="date" class="form-control" id="dateDebut" name="dateDebut" required>
-                </div>
-                <div class="col-md-6">
-                    <label for="dateFin" class="form-label">Date de fin *</label>
-                    <input type="date" class="form-control" id="dateFin" name="dateFin" required>
-                </div>
-            </div>
-        </div>
+       
 
         <!-- Message -->
         <div class="mt-3">
@@ -151,23 +130,5 @@
             </div>
         </div>
     </div>
-
-
-
-<!-- Footer -->
-<footer class="footer text-center text-white py-4">
-    <div class="container">
-        <div class="social-icons mb-3">
-            <a href="facebook.com"><img src="/asbl_projet/front/assets/img/icin/icon-social-facebook.svg" alt="" width="6%"></a>
-            <i class=""></i>
-            <i class=""></i>
-        </div>
-        <p>About us | Conditions générales</p>
-        <p>Email : pbelhala@gmail | Téléphone : +32 455-154-614</p>
-        <p>© JesuisInterprete | All Rights Reserved</p>
-    </div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    </body>
 </html>
